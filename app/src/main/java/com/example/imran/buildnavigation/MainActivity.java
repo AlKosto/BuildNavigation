@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class MainActivity extends AppCompatActivity {
 
 
-    ImageView imgBtn;
+    Button imgBtn;
     LinearLayout drawer;
     BottomNavigationView bottomNavigationView;
     FrameLayout frameLayout;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        imgBtn =(ImageView)findViewById(R.id.imageBtn);
+        imgBtn = findViewById(R.id.imageBtn);
         drawer = (LinearLayout)findViewById(R.id.drawer);
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);
         frameLayout = (FrameLayout)findViewById(R.id.frame_layout);
